@@ -1,0 +1,472 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url(../fonts/Gilroy-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url(../fonts/Gilroy-Medium.ttf);
+    font-weight: 700;
+    font-style: normal;
+  }
+
+/* header */
+
+
+.header{
+    margin-top: 32px;
+}
+    
+
+.container{
+    max-width: 940px;
+    margin: auto;
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 42px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.308);  
+}
+
+.header_nav_link{
+    font-size: 18px;
+    line-height: 22px;
+    color: black;
+    font-family: 'Gilroy-Bold';
+    text-decoration: none;
+}
+
+.header_nav_link:hover{
+    color: #828282;
+    transition: all .2s ease-in-out;
+}
+
+.header_nav_home{
+    color: black;
+}
+
+/* greeting */
+
+
+.greeting{
+    margin-top: 40px;
+}
+
+.greeting_block{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.denis_novik{
+    font-family: 'Gilroy-Bold';
+    font-size: 47.3392px;
+    line-height: 59px;
+    color: #070707;
+}
+
+.information{
+    padding-right: 80px;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    padding-top: 65px;
+}
+
+.lenguage{
+    font-family: 'Gilroy-Medium';
+    transform: rotate(-90deg);
+    margin-right: -75px;
+    margin-bottom: -40px;
+}
+
+.eng_bold{
+    font-family: 'Gilroy-Bold';
+}
+
+
+.den{
+    background: url(../img/BSPP2266.jpg) no-repeat center / cover;
+    width: 943.61px;
+    height: 387px;
+    margin-top: 50px;
+}
+/*about me*/
+
+
+.about__me{
+    background: #F6F6F6;
+    margin-top: 104px;
+    padding-top: 120px;
+    padding-bottom: 107px;
+}
+
+
+.about__me__block{
+    text-align: center;
+}
+
+.about__me__title{
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    color: #070707;
+    margin-bottom: -12px;
+}
+
+.about__me__text{
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    margin-top: 30px;
+}
+
+/*Skills*/
+
+
+.Skills{
+    padding-top: 91px;
+    padding-bottom: 110px;
+}
+
+.Skills__title{
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+
+.Skills__work{
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    margin-top: 70px;
+}
+
+
+.Skills__block{
+    margin-top: 83px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;}
+
+.Skills__block__programs__text{
+    font-family: Gilroy-Bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    margin-top: 24px;
+}
+
+
+.Skills__block__stars{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+
+.stars{
+    width: 35.07px;
+    height: 26px;
+    background: url(../img/Stars.png) no-repeat;
+}
+
+.star{
+    width: 35.07px;
+    height: 26px;
+    background: url(../img/Star.png) no-repeat;
+}
+
+
+/*portfolio*/
+.portfolio{
+    padding-top: 123px;
+    background: #F6F6F6;
+    text-align: center;
+    padding-bottom: 96px;
+}
+
+.portfolio_title{
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+
+
+.example_one{
+    margin-top: 47px;
+}
+
+
+.example{
+    margin-top: 100px;
+}
+
+.portfolio_link{
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+    margin-top: 45px;
+}
+
+.Fashion__img{
+    background: url(../img/Fashion.jpg) no-repeat center / cover;
+    width: 936.24px;
+    height: 510px;
+}
+
+.Reebok{
+    background: url(../img/reebok_web.jpg) no-repeat center / cover;
+    width: 936.24px;
+    height: 510px;
+}
+
+.Braun{
+    background: url(../img/Braun.jpg) no-repeat center / cover;
+    width: 936.24px;
+    height: 510px;
+}
+
+.portfolio__img{
+    margin-bottom: 45px;
+}
+
+/*footer*/
+
+
+.container__footer{
+    margin: auto;
+    max-width: 342px;
+}
+
+.Contacts{
+    text-align: center;
+    margin-top: 115px;
+    padding-bottom: 123px;
+}
+
+.footer__contact{
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    color: #070707;
+    margin-top: 20px;
+}
+
+.footer__text{
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    margin-top: 20px;
+}
+
+.footer__link{
+    margin-top: 30px;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer_button{
+    margin-top: 42px;
+    left: 50%;
+    right: 50%;
+    padding: 13px 40px;
+    background: black;
+    max-width: 60%;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.footer_button:hover{
+    background: rgb(206, 206, 206);
+    transition: .2s;
+    color: black;
+}
+
+.footer__contacts__block{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__inf{
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    margin-top: 45px;
+}   
+
+
+@media (max-width : 1146px){
+    .container{
+        max-width: 500px;
+        margin: auto;
+    }
+
+    .Skills__block{
+        max-width: 100%;
+        flex-wrap: wrap;;
+    }
+
+    .Skills__block__programs{
+        margin-top: 50px;
+    }
+
+    .portfolio__img{
+        width: 500px;
+        height: 300px;
+        text-align: center;
+    }
+
+    .den{
+        width: 500px;
+        height: 200px;
+    }
+}
+
+
+@media (max-width: 743PX){
+    .container{
+       max-width: 400px; 
+       margin: auto;
+    }
+
+    .portfolio__img{
+        width: 400px;
+        height: 200px;
+    }
+    .Skills__block{
+        max-width: 100%;
+    }
+
+    .Skills__block__programs{
+        text-align: center;
+        padding-left: 30%;
+    }
+    .den{
+        width: 400px;
+        height: 200px;
+    }
+}
+
+.phone__adaptation{
+    display: none;
+}
+
+
+/*Адаптация под телефон*/
+
+@media (max-width: 642px){
+
+    .container{
+        max-width: 316px;
+        margin: auto;
+    }
+
+    .portfolio__img{
+        width: 316px;
+        height: 200px;
+    }
+
+    .Skills__block__programs{
+        text-align: center;
+        padding-left: 23%;
+    }
+
+
+    .greeting_block{
+        display: inline;
+    }
+
+    .container__footer{
+        max-width: 316px;
+    }
+
+    .footer_button{
+        margin-top: 42px;
+        left: 50%;
+        right: 50%;
+        padding: 13px 80px;
+        background: black;
+        max-width: 100%;
+        border-radius: 30px;
+        display: inline-block;
+    }
+
+    .information{
+        margin-top: -51px;
+    }
+
+    .lenguage{
+        display: none;
+    }
+
+    .den{
+        background: url(../img/dentwo.jpg) no-repeat center / cover;
+        width: 316px;
+        height: 478px;
+    }
+
+    .header__block{
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        right: 55px;
+        top: 20px;
+        background: url(../img/Group3.svg) no-repeat center / cover;
+    }
+
+    .header_nav{
+        display: none;
+    }
+    .header__block:hover{
+        background: url(../img/Group.svg) no-repeat center / cover;
+        transition: .2s;
+    }
+    .header__block:hover > .header_nav{
+        position: fixed;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        margin-top: 30px;
+        margin-right: -50px;
+        width: 640px;
+        height: 700px;
+    }
+    .header_nav_link{
+        margin: 30px;
+        font-size: 30px;
+    }
+}
